@@ -1,5 +1,5 @@
 class PinsController < ApplicationController
-  before_filter :authenticate_user!, exception: [:index]
+  before_filter :authenticate_user!, except: [:index]
   # GET /pins
   # GET /pins.json
   def index
