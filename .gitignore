@@ -20,5 +20,7 @@ doc/
 .DS_Store
 .idea
 
-# Ignor paperclip uploaded files
+# Ignore paperclip uploaded files
 /public/system
+# Ignore sampleimages
+/sampleimages
